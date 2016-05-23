@@ -1,0 +1,28 @@
+{
+  "name": "zerodb-event-sourced-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "debug": "iron-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "hapi": "^13.4.1",
+    "inert": "^4.0.0",
+    "leveldown": "^1.4.6",
+    "levelup": "^1.3.2",
+    "lout": "^9.0.0",
+    "rx": "^4.1.0",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "iron-node": "^3.0.4",
+    "nodemon": "^1.9.2"
+  }
+}
