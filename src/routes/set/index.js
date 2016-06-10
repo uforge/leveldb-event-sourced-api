@@ -1,7 +1,7 @@
 import controller from './set.controller';
 
 export default {
-  method: 'POST',
+  method: 'GET',
   path: '/set',
   handler: controller
 };
